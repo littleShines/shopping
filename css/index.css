@@ -1,0 +1,289 @@
+/* 首页样式 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.main {
+    /* position: absolute; */
+    height: 465px;
+    padding-left: 220px;
+    padding-top: 10px;
+}
+
+.main img {
+    float: left;
+    width: 720px;
+    height: 100%;
+}
+
+.main .kuaibao {
+    margin-left: 10px;
+    float: left;
+    width: 250px;
+    height: 100%;
+    /* background-color: pink; */
+    /* border: 1px solid #e8e8e7; */
+    border: 1px solid #e4e4e4;
+}
+
+.main .kb-top {
+    width: 100%;
+    height: 164px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.main .kb-top .more{
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    border-bottom: 1px dashed #e8e8e7;
+    padding-left: 15px;
+}
+.main .kb-top .more a{
+    position: relative;
+    margin-left: 95px;
+    font-weight: 400;
+}   
+.main .kb-top .more a::after{
+    content: '\ea42';
+    font-family: 'icomoon';
+    position: absolute;
+    top: -7px;
+    right: -20px;
+}
+.main .kb-top .jieshao ul li{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 15px;
+}  
+.main .kb-mid {
+    width: 100%;
+    height: 207px;
+}
+.main .kb-mid div {
+    text-align: center;
+    height: 70px;
+    width: 62px;
+    background-color: pink;
+    float: left;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    border-left: none;
+    background: url(../images/icons.png) no-repeat 2px -2px;
+    overflow: hidden;
+    /* background-position: -19px -12px; */
+}
+.main .kb-mid div i{
+    display: inline-block;
+    margin-top: 42px;
+}
+.main .kb-bottom img{
+    margin-top: 5px;
+    height: 75px;
+    width: 100%;
+}
+.recom {
+    height:164px ;
+}
+.recom .recom-hd {
+    float: left;
+    background-color: #5c5251;
+    width: 200px;
+    height: 164px;
+    margin-top: 7px;
+}
+.recom .recom-hd img{
+    margin-top: 29px;
+    margin-left: 69px;
+}
+.recom .recom-bd {
+    
+    float: left;
+    /* background-color: #5c5251; */
+    width: 1000px;
+    height: 164px;
+    margin-top: 7px;
+}
+.recom .recom-bd ul li {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 164px;
+    background-color: #ebebeb;
+}
+.recom .recom-bd ul li::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;    
+}
+.recom .recom-bd ul li img{
+    height: 163px;
+    width: 248;
+}
+
+.like {
+    height: 265px;
+    /* padding-top: 30px; */
+}
+.like .like-hd{
+    margin-top: 30px;
+    height: 30px;
+    /* background-color: blue; */
+}
+.like .like-hd h4{
+    color: #333333;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+.like .like-hd a{
+    float: right;
+    font-size: 12px;
+}
+.like .like-bd{
+    height: 230px;
+    border: 1px solid #dddddd;
+}
+.like .like-bd ul li{
+    position: relative;
+    float: left;
+    height: 230px;
+    width: 199px;
+    text-align: center;
+    /* background-color: pink; */
+}
+.like .like-bd ul li:nth-child(-n+5)::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 163px;
+    width: 1px;
+    height: 60px;
+    background-color: #dddddd;
+}
+.like .like-bd ul li img{
+    margin-bottom: 20px;
+}
+.like .like-bd ul li .price{
+    font-size: 18px;
+    color: #df3033;
+    font-weight: 700;
+}
+.phone{
+    margin-top: 30px;
+    height: 390px;
+}
+.phone .phone-hd{
+    height: 30px;
+    line-height: 30px;
+}
+.phone-hd h4{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.phone-hd ul{
+    float: right;
+}
+.phone-hd ul li{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.phone-hd ul li:nth-child(-n+8)::after{
+    content: '|';
+    position: absolute;
+    top: 0;
+    right: -15px;
+    /* position: absolute;
+    top: 0;
+    right: 15px;
+    width: 1px;
+    height: 30px; 
+    color: #ddd;*/
+}
+.style-red{
+    color: #c81623;
+}
+.phone-hd ul li:last-child{
+    margin-right: 10px;
+}
+.phone-bd{
+    background-color: #f9f9f9;
+    height: 360px;
+    border-top: 2px solid #c81623;
+}
+.phone-bd .tv{
+    float: left;
+    width: 210px;
+    height: 100%;
+    text-align: center;
+}
+.phone-bd .tv li{
+  float: left;
+  width: 85px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-bottom: 1px solid #dddddd;
+  margin: 0 10px;
+}
+.phone-bd div {
+    float: left;
+}
+.phone-bd .tv img{
+    text-align: center;
+    height: 175px;
+    line-height: 175px;
+    margin-top: 27px;
+}
+.phone-bd .teapot{
+    position: relative;
+    float: left;
+    width: 330px;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.phone-bd .teapot .teapot-pic{
+    position: absolute;
+    bottom: 16px;
+    left: 140px;
+}
+.col-221 {
+    width: 221px;
+    border-right: 1px solid #dddddd;
+}
+.bb {
+    display: block;
+    width: 221px;
+    height: 180px;
+    border-bottom: 1px solid #dddddd;
+}
+.cc {
+    display: block;
+    width: 221px;
+    height: 361px;
+    line-height: 361px;
+    padding-left: 25px;
+}
+.col-218 {
+    width: 218px;
+}
+
+
+
+
